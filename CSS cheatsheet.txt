@@ -1,0 +1,199 @@
+1. Colors:
+	a. RGB - rgb(0,0,0)
+	b. RGBA - rgba(0,0,0,1)
+	c. HEX - #000000
+	d. HSL - hsl(0, x%, y%)
+	e. HSLA - hsla(0, x%, y%, 0.5)
+	f. NAMES - red, blue, etc
+2. Backgrounds
+	a. background-color: red
+	b. background-image: url('')
+	c. bacllground-repeat: norepeat|repeat-x|repeat-y|repeat
+	d. background-position: right top|left center|Xpx Ypx
+	e. background-size: Xpx Ypx|cover|contain
+	f. background-attachment: scroll|fixed
+	g. background: color image repeat attachment position
+3. Borders
+	a. border-style: solid|dotted|dashed|double|groove|outset|inset|ridge|none
+	b. border-width: px
+	c. border-color: red
+	d. border: width style color
+	e. border-top|bottom|left|right-style|width|color: 
+	f. border-radius: px
+	g. border-top|bottom-left|right:
+4. Height & Width
+	a. height: px|%
+	b. width: px|%
+	c. max-width|height: px|%
+	d. min-width|height: px|%
+5. Padding
+	a. padding-top|bottom|right|left: px|%
+	b. padding: top right bottom left
+6. Margin
+	a. margin-top|bottom|right|left: px|%
+	b. margin: top right bottom left
+	c. margin: auto
+	- Margin can be-ve 
+	- Margin collapse work for top & bottom only
+7. Text
+	a. color: rgb|hsl
+	b. text-align: right|center|justify|left
+	c. direction: rtl|ltr
+	d. vertical-align: top|middle
+	e. text-decoration: underline|overline|none|line-trough
+	f. text-transform: uppercase|lowercase|capitalize
+	g. line-height: px
+	h. text-indent: px
+	i. letter-spacing: px
+	j. word-spacing: px
+	k. white-space: pre|nowrap|normal
+	l. word-wrap:break-word|
+	m. font-size: px
+	n. text-shadow: Xpx Ypx Zpx color
+	o. writing-mode:vertical-lr|rl
+8. Links
+	a. State: :link, :visited, :hover, :active
+9. Fonts
+	a. font-size: px
+	b. font-weight: bold|100-900
+	c. font-style: italic|normal
+	d. font-variant: small-caps
+	e. font-family: 'Poppins', sans-serif
+	f. font: style variant weight size family
+10. Units
+	a. Absolute: cm, mm, in, px, pt, pc
+	b. Relative: em, rem, vh, vw, %
+	- em is relative to the size of its direct parent
+	- rem is only relative to root(html tag) size
+	- vh is 1% of view port height
+	- vw is 1% of view port width
+	- % is relative to parent
+11. Cursor
+	a. cursor: all-scroll|cell|col-resize|grab|not-allowed|progress|auto
+12. Important
+	- !important: it gives most priority
+13. Box-shadow
+	a. box-shadow: Xpx Ypx (blur)px (spread)px color inset
+14. Opacity
+	a. opacity: 0-1
+15. Filter
+	a. filter: blur(px)|brightness(%)|contrast(%)|grayscale(%)|hue-rotate(deg)|invert(%)|opacity(%)|saturate(%)|sepia(%)
+16. Image sprite
+	- Making collage of small images into one big image 
+17. Gradients
+	a. background-image:linear-gradient(color, .. , color)|radial-gradient(color, .. , color)
+18. Overflow
+	a. overflow: hidden|scroll|visible|auto
+	b. overflow-x|y: hidden|scroll|visible
+19. Resizable
+	a. resize: none|both|horizontal|vertical 
+	- resize can be used only on block element having overflow property hidden, scroll, auto
+20. Lists
+	a. list-style-type: none|disc|circle|square (for unordered list)
+	b. list-style-type: lower-alpha|upper-alpha|decimal (for ordered list)
+	c. list-style-image: url('')
+	d. list-style-position: inside|outside
+21. Tables
+	a. border-collapse: collapse 
+	b. table-layout: fixed|auto
+22. Function
+	a. calc(100% - 200px)
+	b. :root{ --primary_cl: blue; }, var(--primary_cl)
+23. Box-sizing
+	a. box-sizing: border-box|content-box
+25. Initial vs Inherit
+	- Initial takes default css value
+	- Inherit takes value from parent
+26. Object-fit
+	a. object-fit: contain|fill|cover
+	b. object-position: left|right|top|bottom
+27. Pseudo-classes
+	a. :first/last-child{}
+	b. :nth-child(n){}
+	c. :nth-last-chile(n){}
+	d. :focus
+28. Pseudo-element
+	a. ::first-letter/line{}
+	b. ::before{content:}
+	c. ::after{content:}
+	d. ::selection{}
+29. Display
+	a. display:block|inline|inline-block|none
+	b. visibility:hidden
+30. Position
+	a. position:relative|fixed|absolute|static
+	-  top,bottom,left,right comes with position property
+31. Layers & z-index
+	a. x-index: 1,2,...n
+32. Float & clear
+	a. float:left|right
+	b. clear:right|left|both
+33. 2D transforms
+	- 2D transforms works only on block & inline-block
+	a. transform:translate(px,px)|rotate(deg)|scale(2,3)|scaleX/Y()|skew(deg,deg)|skewX/Y()|matrix()
+	b. transform-origin:% %
+34. 3D transforms
+	a. transform: perspective(px) rotate3d(x, y, z, deg)
+	b. perspective-origin: % %
+35. Transition
+	a. transition-property:all|width|height
+	b. transition-duration:1s
+	c. transition-delay:3s
+	d. transition-timing-function:linear|ease-in-out;
+	e. transition:property, duration, timing-function, delay
+36. Animation
+	- @keyframes name{}
+	a. animation-name:name
+	b. animation-duration:2s
+	c. animation-delay:2s
+	d. animation-iteration-count:2|inifinite
+	e. animation-direction:reverse|alternate|alterate-reverse
+	f. animation-timing-function:ease|ease-in|ease-out|ease-in-out|linear
+37. Print style
+	a. @media screen{}
+	b. @media print{}
+38. Viewport meta tag
+	a. <meta name="viewport" content="width=device-width,initial-scale=1.0">
+39. Media queries
+	a. @media screen and (min-width:px) and (max-width:px){} 
+40. Advanced selectors
+	- Type of selectors
+	    1. type selector
+	    2. Id selector
+	    3. class selector
+	    4. pseudo class and pseudo-element selector
+	    5. Universal selector
+	    6. Combinator selector
+		A. Descendant combinatory (child at any stage) e.g., a b
+		B. Child combinatory (direct child) e.g., a > b
+		C. Adjacent combinatory (right after sibling) e.g.,a+b
+		D. General sibling (all sibling) e.g., a ~ b
+		E. Add selector e.g., a, b
+41. Specificity
+	- Point system
+	    1. 10000 -> !important
+	    2. 1000  -> inline
+	    3. 100   -> id
+	    4. 10    -> class,attribute,pseudo-class
+	    5. 1     -> element,pseudo-element
+	    6. 0     -> universal selector
+42. Multiple Columns
+	a. column-count: 1,2,3...
+	b. column-gap:px
+	c. column-rule-style/width/color:solid/px/red
+	d. column-rule:px style color
+	e. column-span:all
+	f. column-width: px;
+43. Flexbox	
+	a. display:flex
+	b. flex-direction:row|row-reverse|column|column-reverse
+	c. flex-wrap:nowrap|wrap|wrap-reverse
+	d. flex-flow:direction wrap
+	e. justify-content:center|flex-start|flex-end|space-around|space-between
+	f. align-items:stretch|center|flex-start|flex-end
+	g. align-content:stretch|space-between|space-around|flex-start|flex-end
+	h. order:1,2,3..
+	i. flex-grow:1,2,3,...
+	j. flex-shrink:1,2,3,..
+	i. flex-basis:px
+	j. align-self:center|flex-start|flex-end
