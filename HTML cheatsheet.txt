@@ -1,0 +1,129 @@
+1. <!DOCTYPE html> - defines the current version of HTML
+2. <html lang="en"></html> - It contains all HTML elements
+3. <head></head> - It contains all the metadata like description, title, etc.
+4. <title></title> - Website title
+5. <body></body> - Contains all the visible part of the website
+6. <h1></h1>..<h6></h6> - Headings
+7. <hr> - Horizontal line
+8. <p></p> - Paragraph
+9. <br> - Line break
+10. <pre></pre> - Pre-formatted tag. Shows the HTML as it is with spaces, line-breaks.
+11. <b></b> - Bold
+12. <strong></strong> - Bold. Good for SEO purpose
+13. <i></i> - Italic
+14. <em></em> - Italic. Good for SEO purpose
+15. <small></small> - Makes the font small 
+16. <mark></mark> - Highlights in yellow color
+17. <del></del> - Delete. Strike through
+18. <ins></ins> - Insert. Underlines the content
+19. <sub></sub> - Sub-script
+20. <sup></sup> - Super-script
+21. <q></q> - Quotation
+22. <blockquote cite="google.com"></blockquote>
+23. <abbr title=""></abbr> - Show some content when we hover over
+24. <address></address>
+25. <cite></cite> - e.g., Title of some book
+26. <a href="" target="" title=""></a> - achor tag
+27. <a href="mailto:admin@abc.com?subject=How are you"></a>
+28. <img src="" alt="" width="" height=""> - To show image in website
+29. <marquee direction=""></marquee> - Moving text
+30. <ol start="" type=""></ol> - Ordered list
+31. <li></li> - List item
+32. <ul></ul> - Unordered list
+33. <dl></dl> - Description list
+34. <dt></dt> - Description title
+35. <dd></dd> - Description data
+36. <table border=""></table>
+37. <tr></tr> - Table row
+38. <td colspan="" rowspan=""></td> - Table data
+39. <th></th> - Column/Row head
+40. <caption></caption> - Table title
+41. <thead><thead> - Table head
+42. <tbody></tbody> - Table body
+43. <tfoot></tfoot> - Table footer
+44. <div></div> - Block element
+45. <span></span> - Inline element
+46. <iframe src=""></iframe> - to show content of other website
+47. <audio controls></audio>
+48. <source src="" type=""> - Present inside the audio/video element
+49. <video controls autoplay></video>
+50. <embed src="" type=""> - Embed pdf
+51. <object data="" type=""></object> - Embed pdf
+52. HTML entities can be used in 2 types. i> &name; ii> &#number;
+53. <img src="" usemap=""> - Image map
+54. HTML forms
+<form>
+	Text:   <input type="text"><br>
+	Color:  <input type="color"><br>
+	Date:   <input type="date"><br>
+	Email:  <input type="email"><br>
+	Hidden: <input type="hidden"><br>
+	Number: <input type="number"><br>
+	Psd:    <input type="password"><br>
+	Time:   <input type="time"><br>
+	URL:    <input type="url"><br>
+	Range:  <input type="range" min="" max=""><br>
+	File:   <input type="file" multiple>
+	Male:   <input type="radio" value="male" name="gender">
+	Female: <input type="radio" value="female" name="gender" checked>
+	Bat:    <input type="checkbox" name="sports">
+	Ball:   <input type="checkbox" name="sports">
+
+	<input type="text" 
+	       value=""
+	       name="" 
+		   readonly 
+		   disabled 
+		   size="" 
+		   maxlength=""
+		   placeholder=""
+		   required
+		   autofocus
+		   autocomplete="on/off">
+	<input type="number" 
+		   min=""
+		   max=""
+		   step="">
+
+	<textarea rows="" cols=""></textarea>
+	<input type="image" src="">
+
+	<select size="" multiple>
+		<option value="" selected></option>
+	</select>
+	<select>
+		<optgroup label="">
+			<option></option>
+		</optgroup>
+		<optgroup label="">
+			<option></option>
+		</optgroup>
+	</select>
+
+	Search: <input type="checkbox" list="search">
+	<datalist id="search">
+		<option value="Apple">
+		<option value="Orange">
+		<option value="Banana">
+	</datalist>
+
+	<input type="reset" value="RESET">
+	<input type="submit" value="SUBMIT"> 
+</form>
+55. <label for=""></label> - Used for input title
+56. <fieldset></fieldset> - Used to group input inside form
+57. <legend></legend> - Used inside fieldset
+58. <meta charset="utf-8">
+59.	<meta name="viewport" content="width=device-width, initial-scale=1">
+60.	<meta name="description" content="">
+61.	<meta name="keyword" content="">
+62.	<link rel="canonical" href="">
+63.	<meta name="robots" content="index,follow">
+64.	<title></title>
+65. <link rel="icon" href="" type="image/ico">
+66. <style></style> - For css code
+67. <link rel="stylesheet" type="text/css" href="">
+68. <script></script> - For js code
+69. <script src=""></script>
+70. <noscript></noscript> - This text will be displayed if JS is disabled
+
